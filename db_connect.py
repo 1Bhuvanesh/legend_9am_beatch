@@ -2,10 +2,10 @@ import pymysql
 
 connector = pymysql.connect(
     host="localhost",
-    user="root",
+    user="newuser",
     password="root",
     port=3306
-    
+
 )
 cursor=connector.cursor()
 
